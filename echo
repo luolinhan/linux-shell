@@ -1,0 +1,5 @@
+#/bin/bash
+#echo
+name="user1"
+echo"my name is $name"
+done
