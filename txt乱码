@@ -1,0 +1,3 @@
+windows下txt文件是gbk编码，linux下默认为utf-8，所以linux下用nano打开txt会出现乱码问题，需要转换成utf-8
+
+iconv -f gbk -t utf8 shujujiegou.txt > shujujiegou.txt.utf8
